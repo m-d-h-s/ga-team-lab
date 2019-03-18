@@ -4,7 +4,7 @@ const ui = require('./ui')
 const onGetBooks = () => {
   if (event) { event.preventDefault() }
   api.getBooks()
-    .then(ui.onGetBooksSuccess)
+    .then(ui.getBooksSuccess)
 }
 
 const addHandlers = () => {}
