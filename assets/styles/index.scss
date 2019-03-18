@@ -1,1 +1,20 @@
 @import '~bootstrap/scss/bootstrap';
+
+body {
+  background-color: grey;
+  width: 100vw;
+  background-image: url("https://images.pexels.com/photos/1252869/pexels-photo-1252869.jpeg");
+}
+
+#page {
+  display: flex;
+  justify-content: center;
+}
+
+#page-contents {
+  width: 80%;
+  height: 100vh;
+  background-color: white;
+}
+
+#books-content {}
