@@ -1,13 +1,13 @@
-<div class="book book-{{books.id}}">
+<div class="book">
   <h2 class="dark-text"> All Events </h2>
-  {{#each events as |event|}}
+  {{#each books as |book|}}
     <h2>
-      <small>Title:</small> {{limit books.title 40}}
+      <small>Title:</small> {{limit book.title 40}}
     </h2>
     <p>
       <small>Author:</small>
-      {{#if books.author}}
-        {{event.description}}
+      {{#if book.author}}
+        {{book.author}}
       {{else}}
         No author provided.
       {{/if}}
