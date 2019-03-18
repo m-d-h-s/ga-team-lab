@@ -17,4 +17,19 @@ body {
   background-color: white;
 }
 
-#books-content {}
+#books-content {
+  max-width: 100%;
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#page-header-text {
+  font-size: 5rem;
+}
+
+.book {
+  padding: 1rem;
+  margin: 1rem;
+  border: 3px solid black;
+}
