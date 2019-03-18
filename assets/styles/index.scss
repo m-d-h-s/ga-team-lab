@@ -3,6 +3,7 @@
 body {
   background-color: grey;
   width: 100vw;
+  max-width: 100%;
   background-image: url("https://images.pexels.com/photos/1252869/pexels-photo-1252869.jpeg");
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -12,11 +13,13 @@ body {
 #page {
   display: flex;
   justify-content: center;
+  max-width: 100%;
 }
 
 #page-contents {
   width: 80%;
   height: 100vh;
+  max-width: 100%;
 }
 
 #books-content {
@@ -28,10 +31,12 @@ body {
 
 #page-header-text {
   font-size: 5rem;
-  color:white;
+  color: white;
+  max-width: 100%;
 }
 
 .book {
+  width: 100%;
   padding: 1rem;
   margin: 1rem;
   background-color: rgba(0,0,0,.5);
