@@ -1,4 +1,4 @@
-const bookTemplate = require('../templates/book-list.handldebars')
+const bookTemplate = require('../templates/book-listing.handlebars')
 
 const onGetBooksSuccess = responseData => {
   $('#books-content').empty()
