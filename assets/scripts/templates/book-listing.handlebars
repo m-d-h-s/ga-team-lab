@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <div class="book">
   {{#each books as |book|}}
     <h2>
@@ -15,27 +14,5 @@
     <!-- Button to hide book  -->
     <!-- <button class="btn btn-outline-dark event-hider-btn btn-sm" data-id="{{event.id}}">Close</button> -->
 </div>
-=======
-<div class="book-{{books.id}}">
-  <h2 class="dark-text"> All Events </h2>
-</div>
-{{#each events as |event|}}
-  <div class="book" data-id="{{event.id}}">
-      <h2>
-        <small>Title:</small> {{limit books.title 40}}
-      </h2>
-      <p>
-        <small>Author:</small>
-        {{#if books.author}}
-          {{event.description}}
-        {{else}}
-          No author provided.
-        {{/if}}
-      </p>
-      <!-- Button to hide book  -->
-      <!-- <button class="btn btn-outline-dark event-hider-btn btn-sm" data-id="{{event.id}}">Close</button> -->
-    </div>
-  </div>
->>>>>>> Add handlebars template for books
 
 {{/each}}
