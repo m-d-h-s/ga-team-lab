@@ -14,7 +14,6 @@ body {
 #page-contents {
   width: 80%;
   height: 100vh;
-  background-color: white;
 }
 
 #books-content {
@@ -26,10 +25,12 @@ body {
 
 #page-header-text {
   font-size: 5rem;
+  color:white;
 }
 
 .book {
   padding: 1rem;
   margin: 1rem;
   border: 3px solid black;
+  background-color:white;
 }
