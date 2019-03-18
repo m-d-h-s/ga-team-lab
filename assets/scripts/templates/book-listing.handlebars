@@ -1,5 +1,6 @@
-<div class="book">
+<div class="books">
   {{#each books as |book|}}
+  <div class="book">
     <h2>
       <small>Title:</small> {{limit book.title 40}}
     </h2>
@@ -11,6 +12,7 @@
         No author provided.
       {{/if}}
     </p>
+  </div>
 </div>
 
 {{/each}}
